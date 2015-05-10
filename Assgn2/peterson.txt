@@ -1,0 +1,8 @@
+vars([k], [chce]).
+program([assign(arr(chce, id), 1),
+         assign(k, id),
+         condGoto(arr(chce, 1-id) = 0, 5),
+         condGoto(k = id, 3),
+         sekcja,
+         assign(arr(chce, id), 0),
+         goto(1)]).

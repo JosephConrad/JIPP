@@ -1,0 +1,2 @@
+vars([x], []).
+program([assign(x, id), sekcja, goto(1)]).

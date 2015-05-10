@@ -1,0 +1,9 @@
+Prolog assignment (2)
+===============================================================================
+
+Prolog program that verifies correctness of a program (by visiting all possible
+states).
+
+Usage example:
+make
+verify 2 unsafe.txt
